@@ -1,0 +1,65 @@
+
+
+.container, header, .main, aside, footer  {
+    border: 1px solid black;
+}
+
+.container {
+    background-color: #ccc;
+    width: 75%;
+    margin: auto;
+    overflow:hidden;
+}
+
+
+header {
+    background-color: rgb(238, 238, 238);
+    box-sizing: border-box;
+    text-align: center;
+    
+    padding: 10px;
+}
+
+
+aside {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+
+
+.main {
+    width: 75%;
+    box-sizing: border-box;
+    float: right;
+    clear: right;
+    padding: 10px;
+}
+
+
+footer {
+    background-color: rgb(238, 238, 238);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+    
+   
+    
+}
+
+footer span {
+    width: 33%;
+    display: inline-block;
+    
+    
+}
+
+
+footer a {
+    text-decoration: none;
+}
+    
